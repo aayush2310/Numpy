@@ -1,0 +1,33 @@
+Properties and Attributes:-
+1)shape
+2)nDim
+3)size
+4)Itemsize
+5)Dtype
+6)astype()
+
+#shape
+
+arr1.shape
+
+arrr9=np.array([[[1,2],[3,4]],[[5,6],[7,8]]])
+arr9.shape
+
+arr9.ndim
+
+#size
+
+arr1
+
+arr9
+
+arr9.itemsize
+
+#Dtype
+
+arr8.dtype
+
+arr9.dtype
+
+arr9.astype('float')      #to convert the datatype
+
