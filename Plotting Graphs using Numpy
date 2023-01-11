@@ -1,0 +1,16 @@
+x=np.linspace(-40,40,100)
+x
+x.size
+
+y=np.sin(x)
+
+y.size
+
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+plt.plot(x,y)
+
+y=x*x+2*x+6
+
+plt.plot(x,y)
