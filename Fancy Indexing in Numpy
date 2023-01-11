@@ -1,0 +1,11 @@
+import numpy as np
+
+arr8=np.arrange(24).reshape(6,4)
+
+arr8
+
+#i need first,third and fifth row
+
+arr8[[0,2,4]]
+
+#however we dont need this feature bcz,in pandas this feature is available.
