@@ -1,0 +1,25 @@
+#ravel function-brings higher dimension arrays to 1-D
+
+arr4
+
+arr4.ndim
+
+arr4.ravel()
+
+arr4.transpose()
+
+arr3
+
+arr5=np.arange(12,18).reshape(2,3)
+
+arr5
+
+np.hstack((arr3,arr5))
+
+np.vstack((arr3,arr5))
+
+#vertical stacking can be used in situation like we picked up data in tabulated form from various places and now we combined them to get our final list.
+
+np.hsplit(arr3,3)
+
+np.vsplit(arr3,2)
