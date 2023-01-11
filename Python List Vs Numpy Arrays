@@ -1,0 +1,44 @@
+List Vs Arrays:-
+Numpy arrays are:-
+1)faster
+2)convinient
+3)less memory
+
+CODE:-
+
+#LESS MEMORY
+
+lista=range(100)
+lista
+
+arr11=np.arange(100)
+
+import sys
+
+print(sys.getsizeof(87)*len(lista))
+
+print(arr11.itemsize*arr11.size)
+
+
+#FASTER
+
+import time
+
+x=range(100000)
+
+y=range(100000,200000)
+
+start_time=time.time()
+
+c=[(x,y) for x,y in zip(x,y)]
+
+print(time.time()-start_time)
+
+
+a=np.arange(100000)
+b=np.arange(100000,200000)
+
+start_time=time.time()
+c=a+b
+
+print(time.time()-start_time)
