@@ -13,3 +13,40 @@ plt.show()
 
 plt.pie(budget,labels=areas,autopct="%0.1f%%")
 plt.show()
+
+x=[2,21,31,23,54,76,81,12,11]
+y=[9,87,12,11,17,987,72,45,32]
+
+plt.scatter(x,y)
+
+plt.xlabel('Age')
+plt.ylabel('Salary')
+
+plt.title('Age Vs Salary Graph')
+
+product_id=[1,2,3,4,5,6,7,8]
+online_price=[233,123,111,876,453,985,333,213]
+offline_price=[999,989,987,768,546,654,888,345]
+
+plt.plot(product_id,online_price, color='red',marker='+')
+plt.plot(product_id,online_price, color='red',marker='D',markersize=20,label="online prices")
+plt.plot(product_id,offline_price, color='blue',marker='+',markersize=20,label="offline prices")
+
+plt.xlabel("Product")
+plt.ylabel("Prices")
+plt.title("Product Price Comparison")
+
+plt.legend()
+plt.show()
+
+#BAR GRAPH
+
+year=[2012,2013,2014,2015,2016,2017,2018]
+
+price=[65000,69000,76000,77000,96000,65000,88700]
+
+plt.bar(year,price,color='red')
+plt.xlabel('Year')
+plt.ylabel("Price in (INR)")
+plt.title("Year by Year Price Comp.")
+plt.show()
